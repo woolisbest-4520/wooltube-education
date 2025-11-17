@@ -85,7 +85,7 @@ WOOLtube Education は以下 3 箇所からパラメーターを自動取得し�
 
 ## 📄 ライセンス
 
-[GPL-3.0 license](https://github.com/woolisbest-4520/wooltube-education#)
+[GPL-3.0 license](https://github.com/woolisbest-4520/wooltube-education?tab=GPL-3.0-1-ov-file)
 
 ---
 
