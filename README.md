@@ -1,10 +1,42 @@
-# wooltube-education
-WOOLtubeのyoutubeeducationのみを使った形式です。
 
-検索にはyoutube公式APIを使っています。
+---
 
-使いたいAPIを自分で選んでください。
+## ⚙ 設定
 
-１日１００回ずつなので使えなければ他の物に変えてください。
+### API キーについて
 
-educationのパラメーター・keyは[ここ](https://raw.githubusercontent.com/woolisbest-4520/about-youtube/refs/heads/main/parameter.json)から自動で取得しています。
+- 1 日 100 回まで利用可能。
+- 上限を超えたり動作しない場合は他の API キーへ切り替えてください。
+- youtubeeducation 用の key・パラメーターはシステムが自動で取得します。
+
+---
+
+### パラメーター取得元について
+WOOLtube Education は以下 3 箇所からパラメーターを自動取得します：
+
+- パラメーター1：`parameter.json`
+- パラメーター2：`edu.json`
+- 幸せokさん：`video_config.json`
+
+これらのいずれかは必ず利用可能なため、もし使用不可のパラメーターがあった場合は別のパラメーターセットを選択してください。
+
+---
+
+## 📝 注意事項
+
+- YouTube Data API の制限により、検索回数には上限があります。
+- YouTube Education 埋め込みが使用不可の場合、通常の埋め込みとは挙動が異なる場合があります。
+- 動画が教育カテゴリに属さない場合、表示されない可能性があります。
+
+---
+
+## 📄 ライセンス
+
+[GPL-3.0 license](https://github.com/woolisbest-4520/wooltube-education)
+
+---
+
+## 🤝 貢献
+
+バグ報告・改善案など歓迎しています。
+"""
